@@ -1,0 +1,10 @@
+.introContainer{
+    margin-top: 100px;
+}
+.searchInp{
+    width: 50vw;
+}
+.tagline{
+    color: rgb(255, 255, 255);
+    text-shadow: -2px  2px  16px rgb(79, 99, 255);
+}
