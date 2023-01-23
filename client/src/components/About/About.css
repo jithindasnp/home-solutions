@@ -1,0 +1,29 @@
+.aboutTitle{
+    text-shadow: -3px 2px 15px rgba(7, 7, 7, 0.873);
+    text-shadow: -3px 2px 15px orangered;
+    font-size: 40px;
+}
+.aboutCards{
+    /* border: 2px solid orangered; */
+    height: 15rem;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+    box-shadow: 0px 3px 25px black;
+    background-color: rgba(0, 0, 0, 0.625);
+}
+.aboutIcons{
+    font-size: 7rem;
+    margin-bottom: 5rem;
+    color: orangered;
+}
+.aboutSpace{
+    height: 8rem;
+}
+@media only screen and (max-width: 441px) {
+    .aboutCards{
+        margin-bottom: 10rem;
+    }
+  }

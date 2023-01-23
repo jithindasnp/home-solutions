@@ -1,6 +1,6 @@
 import React from "react";
 import './Navbar.css'
-import logo from '../../images/care_home-removebg-preview.png'
+import logo from '../../images/care_home LOGO.png'
 
 export default function Navbar() {
     return (
@@ -8,10 +8,11 @@ export default function Navbar() {
             <>
                 <>
                     {/* Navigation */}
-                    <nav className="navbar navbar-expand-lg    text-white static-top">
+                    <nav className="navbar navbar-expand-lg text-white static-top">
                         <div className="container">
                             <a className="navbar-brand" href="#">
                                 <img
+                                id="logo"
                                     src={logo}
                                     alt="..."
                                     height={60}
@@ -26,49 +27,53 @@ export default function Navbar() {
                                 aria-controls="navbarSupportedContent"
                                 aria-expanded="false"
                                 aria-label="Toggle navigation"
+                                id="navExpansionBtn"
                             >
-                                <span className="navbar-toggler-icon" />
+                                <span className="navbar-toggler-icon">
+                                    <i className="fas fa-bars" style={{ color: "#fff", fontSize: 28 }} />
+                                </span>
+
                             </button>
                             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul className="navbar-nav ms-auto">
                                     <li className="nav-item">
-                                        <a className="nav-link active text-white" aria-current="page" href="#">
+                                        <a className="nav-link active text-white fw-bold" style={{textShadow:"0px 2px 25px orangered"}} aria-current="page" href="#">
                                             Home
                                         </a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link active text-white" href="#">
+                                        <a className="nav-link active text-white fw-bold" style={{textShadow:"0px 2px 25px orangered"}} href="#">
                                             About
                                         </a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link active text-white" href="#">
+                                        <a className="nav-link active text-white fw-bold" style={{textShadow:"0px 2px 25px orangered"}} href="#">
                                             Signup
                                         </a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link active text-white" href="#">
+                                        <a className="nav-link active text-white fw-bold" style={{textShadow:"0px 2px 25px orangered"}} href="#">
                                             Login
                                         </a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link active text-white" href="#">
-                                        <i class="fa-brands fa-whatsapp"></i>
+                                        <a className="nav-link active text-white fw-bold" style={{textShadow:"0px 2px 25px orangered"}} href="#">
+                                            <i class="fa-brands fa-whatsapp"></i>
                                         </a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link active text-white" href="#">
-                                        <i class="fa-brands fa-instagram"></i>
+                                        <a className="nav-link active text-white fw-bold" style={{textShadow:"0px 2px 25px orangered"}} href="#">
+                                            <i class="fa-brands fa-instagram"></i>
                                         </a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link active text-white" href="#">
-                                        <i class="fa-brands fa-facebook"></i>
+                                        <a className="nav-link active text-white fw-bold" style={{textShadow:"0px 2px 25px orangered"}} href="#">
+                                            <i class="fa-brands fa-facebook"></i>
                                         </a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link active text-white" href="#">
-                                        <i class="fa-brands fa-twitter"></i>
+                                        <a className="nav-link active text-white fw-bold" style={{textShadow:"0px 2px 25px orangered"}} href="#">
+                                            <i class="fa-brands fa-twitter"></i>
                                         </a>
                                     </li>
                                     {/* <li className="nav-item dropdown">

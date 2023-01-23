@@ -1,0 +1,33 @@
+footer {
+    background: linear-gradient(to top, #331d00 0%, #00000000 90%);
+    height: 22rem;
+    border-top: 8px solid grey;
+}
+
+.footerPara {
+    text-shadow: -10px 3px 15px black;
+    color: rgba(255, 255, 255, 0.99);
+}
+
+.footerText {
+    text-shadow: -10px 3px 15px black;
+}
+
+.footerLogo {
+    box-shadow: 0px 3px 15px rgb(0, 0, 0);
+}
+
+.fa-brands {
+    color: rgb(255, 68, 0);
+}
+.copyright{
+    opacity: 50%;
+}
+.copyrightRow{
+    background-color: rgba(0, 0, 0, 0.772);
+}
+@media only screen and (max-width: 576px) {
+    footer{
+        height: 45rem;
+    }
+  }
