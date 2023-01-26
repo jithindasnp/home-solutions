@@ -14,12 +14,9 @@ export default function Intro() {
                     <div className="row ">
                         <div className="col-sm-12  text-white d-flex flex-column">
                             <h5 className="tagline fs-2 text-center">"Perfect care for your home"</h5>
-                            <div className="input-group justify-content-center">
-                                <div className="form-outline text-center">
-                                    <input type="search" id="form1" className="form-control searchInp h-50" />
-                                    <label className="form-label ms-5 opacity-75" htmlFor="form1">
-                                        Search for professionals near you
-                                    </label>
+                            <div className="row">
+                                <div className="col-sm-9 col-10  p-0 searchInpCol">
+                                    <input type="search" className="searchInp " />
                                 </div>
                                 <div className="col-sm-3 col p-0">
                                     <button type="button" className="searchBtn text-white h-100" style={{ backgroundColor: "orangered" }}>
