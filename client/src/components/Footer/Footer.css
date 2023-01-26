@@ -1,7 +1,7 @@
 footer {
     background: linear-gradient(to top, #331d00 0%, #00000000 90%);
     height: 22rem;
-    border-top: 8px solid grey;
+    border-top: 8px solid rgb(41, 40, 40);
 }
 
 .footerPara {
@@ -20,6 +20,7 @@ footer {
 .fa-brands {
     color: rgb(255, 68, 0);
 }
+
 .copyright{
     opacity: 50%;
 }

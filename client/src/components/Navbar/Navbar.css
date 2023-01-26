@@ -1,0 +1,7 @@
+.nav-link:hover {
+    transform: scale("1.5")
+}
+.navIcons:hover {
+    transform: scale(1.5);
+    transition: 0.4s;
+}

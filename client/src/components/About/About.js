@@ -4,7 +4,7 @@ import './About.css'
 export default function About() {
     return (
         <>
-            <div className="container-fluid text-white mt-3">
+            <div className="container-fluid text-white mt-3" id='about'>
                 <div className="row mb-5">
                     <h1 className='aboutTitle text-center mt-5 mb-3'>About us</h1>
                 </div>
@@ -12,8 +12,8 @@ export default function About() {
                     <div className="col-sm-4 ">
                         <div className="aboutCards">
                             <i class="fa-brands aboutIcons  fa-rocketchat " ></i>
-                            <h4>Tell us what your home needs</h4>
-                            <p className='mt-5 aboutPara'>From routine maintenance and repairs to dream home renovations, we can help with any works — big or small.</p>
+                            <h4>We are always ready to fulfill your needs</h4>
+                            <p className='mt-3 aboutPara'>From routine maintenance and repairs to dream home renovations, we can help with any works — big or small.</p>
                         </div>
                     </div>
                     <div className="col-sm-4 ">

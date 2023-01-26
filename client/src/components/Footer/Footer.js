@@ -14,12 +14,12 @@ export default function Footer() {
                         </div>
                         <div className="col-sm-8">
                             <div className="row px-3 justify-content-end">
-                                <div className="col-md-2 col-sm-3 col  footerText"><a className='text-white' href='#'><p>Calicut</p></a></div>
-                                <div className="col-md-2 col-sm-3 col  footerText"><a className='text-white' href='#'><p>Kannur</p></a></div>
-                                <div className="col-md-2 col-sm-3 col  footerText"><a className='text-white' href='#'><p>Wayanad</p></a></div>
-                                <div className="col-md-2 col-sm-3 col  footerText"><a className='text-white' href='#'><p>Thrissur</p></a></div>
-                                <div className="col-md-2 col-sm-3 col  footerText"><a className='text-white' href='#'><p>Kochi</p></a></div>
-                                <div className="col-md-2 col-sm-3 col  footerText"><a className='text-white' href='#'><p>Trivandrum</p></a></div>
+                                <div className="col-md-2 col-sm-4 col-4 col  footerText"><a className='text-white' href='#'><p>Calicut</p></a></div>
+                                <div className="col-md-2 col-sm-4 col-4 col  footerText"><a className='text-white' href='#'><p>Kannur</p></a></div>
+                                <div className="col-md-2 col-sm-4 col-4 col  footerText"><a className='text-white' href='#'><p>Wayanad</p></a></div>
+                                <div className="col-md-2 col-sm-4 col-4 col  footerText"><a className='text-white' href='#'><p>Thrissur</p></a></div>
+                                <div className="col-md-2 col-sm-4 col-4 col  footerText"><a className='text-white' href='#'><p>Kochi</p></a></div>
+                                <div className="col-md-2 col-sm-4 col-4 col  footerText"><a className='text-white' href='#'><p>Trivandrum</p></a></div>
                             </div>
                         </div>
                     </div>
