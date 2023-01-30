@@ -39,6 +39,10 @@ body {
   background-color: rgb(209, 64, 11);
 }
 
+.signupTitleBar:hover {
+  transform: scale(1.2);
+  transition: 0.5s;
+}
 
 @media only screen and (max-width: 576px) {
   .selectBar {
@@ -46,15 +50,128 @@ body {
   }
 }
 
-@media only screen and (max-width: 367px) {
+@media only screen and (max-width: 269px) {
   .FormContainer {
     top: 260px;
   }
 
-  .selectBar {
-    height: 5rem;
-  }
 }
+
 /* signup---end*/
 
 /* services---start */
+.services {
+  font-family: 'Roboto Mono', monospace;
+}
+
+@keyframes borderLine {
+  from {
+    width: 28%;
+  }
+
+  to {
+    width: 90%;
+  }
+}
+
+.servicesTitle {
+  border-bottom: 2px solid orangered;
+  width: 90%;
+  padding-bottom: 1rem;
+  animation-name: borderLine;
+  animation-duration: 2s;
+}
+
+@keyframes imageFade {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+
+  to {
+    opacity: 100%;
+    transform: translateX(0);
+  }
+}
+
+.serImgCol {
+  animation-name: imageFade;
+  animation-duration: 4s;
+}
+
+.serImgCol:hover {
+  transform: scale(1.1);
+  transition: 0.8s;
+  cursor: pointer;
+}
+
+/* services---end */
+/* Book service---start */
+.dropdown-item:hover {
+  color: black !important;
+}
+
+.dropBtn {
+  background-color: rgba(255, 68, 0, 0.686);
+}
+
+.dropBtn:hover {
+  background-color: orangered;
+}
+
+
+
+.profCardBtn {
+  background-color: orangered;
+  color: white;
+  text-shadow: 0px 2px 10px black;
+  font-weight: 600;
+}
+
+
+.profCardBtn:hover {
+  color: white;
+  background-color: rgba(255, 0, 0, 0.86);
+}
+
+.locations {
+  cursor: pointer;
+}
+
+.locationImage {
+  border: 1px solid orangered;
+  box-shadow: 0px 3px 20px orangered;
+  height: 10rem;
+}
+
+@media only screen and (max-width:992px) {
+  .profCard {
+    width: 36rem !important;
+  }
+
+}
+
+@media only screen and (max-width:576px) {
+  .locationImage {
+    width: 20rem;
+  }
+
+}
+
+@media only screen and (max-width:350px) {
+  .locationImage {
+    width: 17rem;
+  }
+
+  .modalClose {
+    left: 100%;
+  }
+}
+
+.modalClose {
+  position: relative;
+  left: 100%;
+  cursor: pointer;
+}
+
+/* Book service---end */

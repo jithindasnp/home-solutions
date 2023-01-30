@@ -6,20 +6,20 @@ export default function Footer() {
     return (
         <>
             <footer>
-                <div className="container-fluid text-white ">
+                <div className="container-fluid ">
                     <div className="row "></div>
                     <div className="row mt-5 fw-bold ">
                         <div className="col-sm-2 ms-3">
-                            <h5 className='footerText'>Popular cities</h5>
+                            <h5 className='footerLinks'>Popular cities</h5>
                         </div>
                         <div className="col-sm-8">
                             <div className="row px-3 justify-content-end">
-                                <div className="col-md-2 col-sm-4 col-4 col  footerText"><a className='text-white' href='#'><p>Calicut</p></a></div>
-                                <div className="col-md-2 col-sm-4 col-4 col  footerText"><a className='text-white' href='#'><p>Kannur</p></a></div>
-                                <div className="col-md-2 col-sm-4 col-4 col  footerText"><a className='text-white' href='#'><p>Wayanad</p></a></div>
-                                <div className="col-md-2 col-sm-4 col-4 col  footerText"><a className='text-white' href='#'><p>Thrissur</p></a></div>
-                                <div className="col-md-2 col-sm-4 col-4 col  footerText"><a className='text-white' href='#'><p>Kochi</p></a></div>
-                                <div className="col-md-2 col-sm-4 col-4 col  footerText"><a className='text-white' href='#'><p>Trivandrum</p></a></div>
+                                <div className="col-md-2 col-sm-4 col-4 col  footerText"><a className='footerLinks' href='/services'><p>Calicut</p></a></div>
+                                <div className="col-md-2 col-sm-4 col-4 col  footerText"><a className='footerLinks' href='/services'><p>Kannur</p></a></div>
+                                <div className="col-md-2 col-sm-4 col-4 col  footerText"><a className='footerLinks' href='/services'><p>Wayanad</p></a></div>
+                                <div className="col-md-2 col-sm-4 col-4 col  footerText"><a className='footerLinks' href='/services'><p>Thrissur</p></a></div>
+                                <div className="col-md-2 col-sm-4 col-4 col  footerText"><a className='footerLinks' href='/services'><p>Kochi</p></a></div>
+                                <div className="col-md-2 col-sm-4 col-4 col  footerText"><a className='footerLinks' href='/services'><p>Trivandrum</p></a></div>
                             </div>
                         </div>
                     </div>
@@ -33,10 +33,10 @@ export default function Footer() {
                         </div>
                         <div className="col-sm-3">
                             <div className="row mt-5">
-                                <div className="col-sm-3 col fs-2 mt-3"><i class="fa-brands fa-whatsapp"></i></div>
-                                <div className="col-sm-3 col fs-2 mt-3"><i class="fa-brands fa-facebook"></i></div>
-                                <div className="col-sm-3 col fs-2 mt-3"><i class="fa-brands fa-twitter"></i></div>
-                                <div className="col-sm-3 col fs-2 mt-3"><i class="fa-brands fa-instagram"></i></div>
+                                <div className="col-sm-3 col fs-2 mt-3"><i class="fa-brands footerIcons fa-whatsapp"></i></div>
+                                <div className="col-sm-3 col fs-2 mt-3"><i class="fa-brands footerIcons fa-facebook"></i></div>
+                                <div className="col-sm-3 col fs-2 mt-3"><i class="fa-brands footerIcons fa-twitter"></i></div>
+                                <div className="col-sm-3 col fs-2 mt-3"><i class="fa-brands footerIcons fa-instagram"></i></div>
                             </div>
                         </div>
                     </div>

@@ -5,9 +5,9 @@ import logo from '../../images/care_home LOGO.png'
 export default function Navbar() {
     return (
         <>
-            <nav className="navbar navbar-expand-lg text-white static-top">
+            <nav className="navbar navbar-expand-lg   static-top">
                 <div className="container">
-                    <a className="navbar-brand" href="#">
+                    <a className="navbar-brand" href="/">
                         <img
                             id="logo"
                             src={logo}
@@ -34,47 +34,47 @@ export default function Navbar() {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav ms-auto">
                             <li className="nav-item">
-                                <a className="nav-link active text-white  fw-bold" style={{ textShadow: "0px 2px 25px orangered" }} aria-current="page" href="/">
+                                <a className="nav-link active  navbarText  fw-bold"  aria-current="page" href="/">
                                     Home
                                 </a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link active text-white  fw-bold" style={{ textShadow: "0px 2px 25px orangered" }} href="#about">
+                                <a className="nav-link active  navbarText  fw-bold"  href="#about">
                                     About
                                 </a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link active text-white  fw-bold" style={{ textShadow: "0px 2px 25px orangered" }} href="/services">
+                                <a className="nav-link active  navbarText  fw-bold"  href="/services">
                                     Services
                                 </a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link active text-white  fw-bold" style={{ textShadow: "0px 2px 25px orangered" }} href="/signup">
+                                <a className="nav-link active  navbarText  fw-bold"  href="/signup">
                                     Signup
                                 </a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link active text-white  fw-bold" style={{ textShadow: "0px 2px 25px orangered" }} href="/login">
+                                <a className="nav-link active  navbarText  fw-bold"  href="/login">
                                     Login
                                 </a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link active text-white  fw-bold" style={{ textShadow: "0px 2px 25px orangered" }} href="#">
+                                <a className="nav-link active navbarText  fw-bold"  href="https://www.whatsapp.com/">
                                     <i class="fa-brands navIcons fa-whatsapp"></i>
                                 </a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link active text-white  fw-bold" style={{ textShadow: "0px 2px 25px orangered" }} href="#">
+                                <a className="nav-link active navbarText  fw-bold"  href="https://www.instagram.com/">
                                     <i class="fa-brands navIcons fa-instagram"></i>
                                 </a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link active text-white  fw-bold" style={{ textShadow: "0px 2px 25px orangered" }} href="#">
+                                <a className="nav-link active navbarText  fw-bold"  href="https://www.facebook.com/">
                                     <i class="fa-brands navIcons fa-facebook"></i>
                                 </a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link active text-white  fw-bold" style={{ textShadow: "0px 2px 25px orangered" }} href="#">
+                                <a className="nav-link active navbarText  fw-bold"  href="https://www.twitter.com/">
                                     <i class="fa-brands navIcons fa-twitter"></i>
                                 </a>
                             </li>

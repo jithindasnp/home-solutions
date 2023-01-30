@@ -1,5 +1,4 @@
 footer {
-    background: linear-gradient(to top, #331d00 0%, #00000000 90%);
     height: 22rem;
     border-top: 8px solid rgb(41, 40, 40);
 }
@@ -7,28 +6,49 @@ footer {
 .footerPara {
     text-shadow: -10px 3px 15px black;
     color: rgba(255, 255, 255, 0.99);
+    opacity: 30%;
 }
 
 .footerText {
     text-shadow: -10px 3px 15px black;
+    
+}
+
+.footerLinks {
+    color: rgba(255, 255, 255, 0.251);
+    text-decoration: underline;
+    text-decoration-color: orangered;
+}
+.footerLinks:hover{
+    color: white;
 }
 
 .footerLogo {
     box-shadow: 0px 3px 15px rgb(0, 0, 0);
+    opacity: 70%;
 }
-
-.fa-brands {
+.footerLogo:hover{
+    opacity: 100%;
+}
+.footerIcons {
     color: rgb(255, 68, 0);
+    opacity: 70%;
+}
+.footerIcons:hover{
+    opacity: 100%;
 }
 
-.copyright{
-    opacity: 50%;
+.copyright {
+    color: white;
+    opacity: 30%;
 }
-.copyrightRow{
+
+.copyrightRow {
     background-color: rgba(0, 0, 0, 0.772);
 }
+
 @media only screen and (max-width: 576px) {
-    footer{
+    footer {
         height: 45rem;
     }
-  }
+}
