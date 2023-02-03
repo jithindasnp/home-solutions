@@ -175,3 +175,13 @@ body {
 }
 
 /* Book service---end */
+/* Payment---start */
+.proceedBtn{
+  color: white;
+  background-color: orangered;
+  letter-spacing: 0.3em;
+}
+.proceedBtn:hover{
+  background-color: #ff4400c5;
+  color: #dfdfdf;
+}

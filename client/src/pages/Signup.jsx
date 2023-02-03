@@ -1,18 +1,38 @@
-import React, { useEffect, useState } from 'react'
-import AdminSignup from '../components/AdminSignup/AdminSignup'
+import React, {  useState } from 'react'
 import CustomerSignup from '../components/CustomerSignup/CustomerSignup'
 import Navbar from '../components/Navbar/Navbar'
 import ProfessionalSignup from '../components/ProfessionalSignup/ProfessionalSignup'
+import axios from 'axios'
+import { useNavigate } from 'react-router-dom'
 
 export default function Signup() {
-    
+    const navigate = useNavigate()
+    const [customerSignup, setcustomerSignup] = useState({})
+
     const [signupToggle, setsignupToggle] = useState("customer")
 
     const signupChange = (data) => {
-        console.log(data);
         setsignupToggle(data)
     }
 
+    const inpChange = (e) => {
+        const { name, value } = e.target
+        setcustomerSignup({ ...customerSignup, [name]: value })
+
+    }
+
+    const signupSubmit = (e) => {
+        e.preventDefault()
+        axios.post('http://localhost:3001/api/signup/customerSignup', customerSignup).then((data) => {
+            if (data) {
+                navigate('/login')
+            } else {
+                navigate('/signup')
+            }
+            console.log(data);
+        })
+    }
+    console.log(customerSignup);
     return (
         <>
             <Navbar />
@@ -27,7 +47,7 @@ export default function Signup() {
                     <div className="row justify-content-center">
                         <div className="col-lg-2 col-sm-1"></div>
                         <div className="col-lg-8 col-sm-10 formCol  d-flex justify-content-center">
-                            {signupToggle == "customer" ? <CustomerSignup /> : <ProfessionalSignup />}
+                            {signupToggle == "customer" ? <CustomerSignup inp={inpChange} sumbit={signupSubmit} /> : <ProfessionalSignup />}
                         </div>
                         <div className="col-lg-2 col-sm-1"></div>
                     </div>

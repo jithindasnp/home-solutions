@@ -2,10 +2,10 @@ import React from 'react'
 import './CustomerSignup.css'
 import bg from '../../../src/images/home solutions bg.jpg'
 
-export default function CustomerSignup() {
+export default function CustomerSignup({inp},{submit}) {
     return (
         <>
-            <form className='mt-5'>
+            <form className='mt-5 customerForm' onSubmit={submit}>
                 <div className="row">
                     <div className="col-sm-12 d-flex justify-content-center my-5" >
                         <h3 className='formTitle'>Join as Customer</h3>
@@ -21,6 +21,8 @@ export default function CustomerSignup() {
                                 <input
                                     type="text"
                                     className="form-control inp"
+                                    onChange={inp}
+                                    name="fullName"
                                 />
                             </div>
                         </div>
@@ -34,6 +36,8 @@ export default function CustomerSignup() {
                                     className="form-control inp"
                                     id="exampleInputEmail1"
                                     aria-describedby="emailHelp"
+                                    onChange={inp}
+                                    name="email"
                                 />
                             </div>
                         </div>
@@ -46,6 +50,8 @@ export default function CustomerSignup() {
                                     type="password"
                                     className="form-control inp"
                                     id="exampleInputPassword1"
+                                    onChange={inp}
+                                    name="password"
                                 />
                             </div>
                         </div>
@@ -57,6 +63,8 @@ export default function CustomerSignup() {
                                 <input
                                     type="text"
                                     className="form-control inp"
+                                    onChange={inp}
+                                    name="city"
                                 />
                             </div>
                         </div>
@@ -68,6 +76,8 @@ export default function CustomerSignup() {
                                 <input
                                     type="text"
                                     className="form-control inp"
+                                    onChange={inp}
+                                    name="district"
                                 />
                             </div>
                         </div>
@@ -79,6 +89,8 @@ export default function CustomerSignup() {
                                 <input
                                     type="text"
                                     className="form-control inp"
+                                    onChange={inp}
+                                    name="phone"
                                 />
                             </div>
                         </div>
@@ -90,6 +102,8 @@ export default function CustomerSignup() {
                                 <input
                                     type="text"
                                     className="form-control inp"
+                                    onChange={inp}
+                                    name="whatsapp"
                                 />
                             </div>
                         </div>
@@ -101,6 +115,8 @@ export default function CustomerSignup() {
                                 <input
                                     type="text"
                                     className="form-control inp"
+                                    onChange={inp}
+                                    name="pincode"
                                 />
                             </div>
                         </div>

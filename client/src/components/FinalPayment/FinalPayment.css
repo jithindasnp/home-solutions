@@ -1,0 +1,32 @@
+.finalPaymentDetails {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
+
+.finalPriceDetails {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
+
+.paymentSubTitle {
+    text-shadow: 0px 2px 2px black;
+    border-bottom: 1px solid orangered;
+    width: 75%;
+    padding-bottom: .5rem;
+}
+
+.paymentPtags {
+    font-weight: 500;
+}
+.paymentRadioBtn{
+    background-color: rgb(43, 43, 43);
+    color: white;
+    border-radius: 5px;
+    letter-spacing: 0.2rem;
+    text-shadow: 0px 2px 2px black;
+}
+.paymentRadioBtn:hover {
+    color: orangered;
+}
